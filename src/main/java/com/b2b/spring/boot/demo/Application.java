@@ -31,7 +31,7 @@ public void test() {
   System.out.println("DATI RECUPERATI: ");
   test.forEach(System.out::println);
 
-  System.out.println("prove git, modifica prima branch");
+
 
 }
 
