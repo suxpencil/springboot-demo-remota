@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: 'dev'
+
+  application:
+    name: spring_boot_demo
+
+  datasource:
+    url: jdbc:h2:mem:spring_boot_demo
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    database: h2
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secretKey: NGE2YzQ3Njg2OTY5NmJlMWU4YjdmYWFmOTQ5YWE1ZDdhYjUzZjJhMjczZDZjMzM5MTY1YTE5YjEyNjU3OGM2ZTMwYWZkOGQ0YTYyMDc2MDBhOTcxYmNjNGM0NGUwZTQ2
+  pippo:
+
+server:
+  port: 8086

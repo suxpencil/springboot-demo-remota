@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.b2b.spring.boot.demo.ApplicationTests" time="5.927" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Documenti\Progetti\CorsoJava\spring.boot.demo\target\test-classes;C:\Documenti\Progetti\CorsoJava\spring.boot.demo\target\classes;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.4.3\spring-boot-starter-data-jpa-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.3\spring-boot-starter-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot\3.4.3\spring-boot-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.3\spring-boot-autoconfigure-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.3\spring-boot-starter-logging-3.4.3.jar;C:\Users\suxpe\.m2\repository\ch\qos\logback\logback-classic\1.5.16\logback-classic-1.5.16.jar;C:\Users\suxpe\.m2\repository\ch\qos\logback\logback-core\1.5.16\logback-core-1.5.16.jar;C:\Users\suxpe\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\suxpe\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\suxpe\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\suxpe\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\suxpe\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.4.3\spring-boot-starter-jdbc-3.4.3.jar;C:\Users\suxpe\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-jdbc\6.2.3\spring-jdbc-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\hibernate\orm\hibernate-core\6.6.8.Final\hibernate-core-6.6.8.Final.jar;C:\Users\suxpe\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\suxpe\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\suxpe\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\suxpe\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\suxpe\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\suxpe\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\suxpe\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\suxpe\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\suxpe\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\suxpe\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\suxpe\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\suxpe\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\suxpe\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\data\spring-data-jpa\3.4.3\spring-data-jpa-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\data\spring-data-commons\3.4.3\spring-data-commons-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-orm\6.2.3\spring-orm-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-context\6.2.3\spring-context-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-tx\6.2.3\spring-tx-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-beans\6.2.3\spring-beans-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-aspects\6.2.3\spring-aspects-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.4.3\spring-boot-starter-security-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-aop\6.2.3\spring-aop-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-config\6.4.3\spring-security-config-6.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-web\6.4.3\spring-security-web-6.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-expression\6.2.3\spring-expression-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.3\spring-boot-starter-web-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.3\spring-boot-starter-json-3.4.3.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.2\jackson-datatype-jdk8-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.2\jackson-module-parameter-names-2.18.2.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.3\spring-boot-starter-tomcat-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.36\tomcat-embed-core-10.1.36.jar;C:\Users\suxpe\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.36\tomcat-embed-el-10.1.36.jar;C:\Users\suxpe\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.36\tomcat-embed-websocket-10.1.36.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-web\6.2.3\spring-web-6.2.3.jar;C:\Users\suxpe\.m2\repository\io\micrometer\micrometer-observation\1.14.4\micrometer-observation-1.14.4.jar;C:\Users\suxpe\.m2\repository\io\micrometer\micrometer-commons\1.14.4\micrometer-commons-1.14.4.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-webmvc\6.2.3\spring-webmvc-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-starter-openfeign\4.2.0\spring-cloud-starter-openfeign-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-starter\4.2.0\spring-cloud-starter-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-context\4.2.0\spring-cloud-context-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-openfeign-core\4.2.0\spring-cloud-openfeign-core-4.2.0.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-form-spring\13.5\feign-form-spring-13.5.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-form\13.5\feign-form-13.5.jar;C:\Users\suxpe\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\suxpe\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-commons\4.2.0\spring-cloud-commons-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-crypto\6.4.3\spring-security-crypto-6.4.3.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-core\13.5\feign-core-13.5.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-slf4j\13.5\feign-slf4j-13.5.jar;C:\Users\suxpe\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.3\spring-boot-starter-test-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-test\3.4.3\spring-boot-test-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.3\spring-boot-test-autoconfigure-3.4.3.jar;C:\Users\suxpe\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\suxpe\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\suxpe\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\suxpe\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\suxpe\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\suxpe\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\suxpe\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\suxpe\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\suxpe\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\suxpe\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\suxpe\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\suxpe\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\suxpe\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\suxpe\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\suxpe\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar;C:\Users\suxpe\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\suxpe\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-core\6.2.3\spring-core-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-jcl\6.2.3\spring-jcl-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-test\6.2.3\spring-test-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-test\6.4.3\spring-security-test-6.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-core\6.4.3\spring-security-core-6.4.3.jar;C:\Users\suxpe\.m2\repository\io\jsonwebtoken\jjwt-api\0.12.6\jjwt-api-0.12.6.jar;C:\Users\suxpe\.m2\repository\io\jsonwebtoken\jjwt-impl\0.12.6\jjwt-impl-0.12.6.jar;C:\Users\suxpe\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.12.6\jjwt-jackson-0.12.6.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\suxpe\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\suxpe\.m2\repository\org\mapstruct\mapstruct\1.6.3\mapstruct-1.6.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Rome"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="APPLICATION_NAME" value="spring_boot_demo"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.boot.library.path" value="C:\Users\suxpe\.jdks\temurin-21.0.6\bin"/>
+    <property name="sun.java.command" value="C:\Users\suxpe\AppData\Local\Temp\surefire16333245398090002738\surefirebooter-20250320173905314_3.jar C:\Users\suxpe\AppData\Local\Temp\surefire16333245398090002738 2025-03-20T17-39-05_205-jvmRun1 surefire-20250320173905314_1tmp surefire_0-20250320173905314_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Documenti\Progetti\CorsoJava\spring.boot.demo\target\test-classes;C:\Documenti\Progetti\CorsoJava\spring.boot.demo\target\classes;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.4.3\spring-boot-starter-data-jpa-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.3\spring-boot-starter-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot\3.4.3\spring-boot-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.3\spring-boot-autoconfigure-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.3\spring-boot-starter-logging-3.4.3.jar;C:\Users\suxpe\.m2\repository\ch\qos\logback\logback-classic\1.5.16\logback-classic-1.5.16.jar;C:\Users\suxpe\.m2\repository\ch\qos\logback\logback-core\1.5.16\logback-core-1.5.16.jar;C:\Users\suxpe\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\suxpe\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\suxpe\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\suxpe\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\suxpe\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.4.3\spring-boot-starter-jdbc-3.4.3.jar;C:\Users\suxpe\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-jdbc\6.2.3\spring-jdbc-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\hibernate\orm\hibernate-core\6.6.8.Final\hibernate-core-6.6.8.Final.jar;C:\Users\suxpe\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\suxpe\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\suxpe\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\suxpe\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\suxpe\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\suxpe\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\suxpe\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\suxpe\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\suxpe\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\suxpe\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\suxpe\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\suxpe\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\suxpe\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\data\spring-data-jpa\3.4.3\spring-data-jpa-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\data\spring-data-commons\3.4.3\spring-data-commons-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-orm\6.2.3\spring-orm-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-context\6.2.3\spring-context-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-tx\6.2.3\spring-tx-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-beans\6.2.3\spring-beans-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-aspects\6.2.3\spring-aspects-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.4.3\spring-boot-starter-security-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-aop\6.2.3\spring-aop-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-config\6.4.3\spring-security-config-6.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-web\6.4.3\spring-security-web-6.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-expression\6.2.3\spring-expression-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.3\spring-boot-starter-web-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.3\spring-boot-starter-json-3.4.3.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.2\jackson-datatype-jdk8-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.2\jackson-module-parameter-names-2.18.2.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.3\spring-boot-starter-tomcat-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.36\tomcat-embed-core-10.1.36.jar;C:\Users\suxpe\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.36\tomcat-embed-el-10.1.36.jar;C:\Users\suxpe\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.36\tomcat-embed-websocket-10.1.36.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-web\6.2.3\spring-web-6.2.3.jar;C:\Users\suxpe\.m2\repository\io\micrometer\micrometer-observation\1.14.4\micrometer-observation-1.14.4.jar;C:\Users\suxpe\.m2\repository\io\micrometer\micrometer-commons\1.14.4\micrometer-commons-1.14.4.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-webmvc\6.2.3\spring-webmvc-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-starter-openfeign\4.2.0\spring-cloud-starter-openfeign-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-starter\4.2.0\spring-cloud-starter-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-context\4.2.0\spring-cloud-context-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-openfeign-core\4.2.0\spring-cloud-openfeign-core-4.2.0.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-form-spring\13.5\feign-form-spring-13.5.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-form\13.5\feign-form-13.5.jar;C:\Users\suxpe\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\suxpe\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\cloud\spring-cloud-commons\4.2.0\spring-cloud-commons-4.2.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-crypto\6.4.3\spring-security-crypto-6.4.3.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-core\13.5\feign-core-13.5.jar;C:\Users\suxpe\.m2\repository\io\github\openfeign\feign-slf4j\13.5\feign-slf4j-13.5.jar;C:\Users\suxpe\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.3\spring-boot-starter-test-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-test\3.4.3\spring-boot-test-3.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.3\spring-boot-test-autoconfigure-3.4.3.jar;C:\Users\suxpe\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\suxpe\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\suxpe\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\suxpe\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\suxpe\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\suxpe\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\suxpe\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\suxpe\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\suxpe\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\suxpe\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\suxpe\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\suxpe\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\suxpe\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\suxpe\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\suxpe\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\suxpe\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar;C:\Users\suxpe\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\suxpe\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-core\6.2.3\spring-core-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-jcl\6.2.3\spring-jcl-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\spring-test\6.2.3\spring-test-6.2.3.jar;C:\Users\suxpe\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-test\6.4.3\spring-security-test-6.4.3.jar;C:\Users\suxpe\.m2\repository\org\springframework\security\spring-security-core\6.4.3\spring-security-core-6.4.3.jar;C:\Users\suxpe\.m2\repository\io\jsonwebtoken\jjwt-api\0.12.6\jjwt-api-0.12.6.jar;C:\Users\suxpe\.m2\repository\io\jsonwebtoken\jjwt-impl\0.12.6\jjwt-impl-0.12.6.jar;C:\Users\suxpe\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.12.6\jjwt-jackson-0.12.6.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\suxpe\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\suxpe\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\suxpe\.m2\repository\org\mapstruct\mapstruct\1.6.3\mapstruct-1.6.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\suxpe"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\suxpe\.jdks\temurin-21.0.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Documenti\Progetti\CorsoJava\spring.boot.demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\suxpe\AppData\Local\Temp\surefire16333245398090002738\surefirebooter-20250320173905314_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+7-LTS"/>
+    <property name="user.name" value="suxpe"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
+    <property name="localRepository" value="C:\Users\suxpe\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\suxpe\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.5"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Documenti\Progetti\CorsoJava\spring.boot.demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="14300"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\suxpe\.jdks\temurin-21.0.6\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\client\suxpe\product\12.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\suxpe\AppData\Local\Microsoft\WindowsApps;C:\Users\suxpe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\suxpe\AppData\Roaming\npm;C:\Users\suxpe\AppData\Local\JetBrains\Toolbox\scripts;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.6+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="LOGGED_APPLICATION_NAME" value="[spring_boot_demo] "/>
+  </properties>
+  <testcase name="contextLoads" classname="com.b2b.spring.boot.demo.ApplicationTests" time="0.517">
+    <system-out><![CDATA[17:39:06.251 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.b2b.spring.boot.demo.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:39:06.366 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.b2b.spring.boot.demo.Application for test class com.b2b.spring.boot.demo.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-03-20T17:39:07.045+01:00  INFO 14300 --- [spring_boot_demo] [           main] c.b2b.spring.boot.demo.ApplicationTests  : Starting ApplicationTests using Java 21.0.6 with PID 14300 (started by suxpe in C:\Documenti\Progetti\CorsoJava\spring.boot.demo)
+2025-03-20T17:39:07.047+01:00  INFO 14300 --- [spring_boot_demo] [           main] c.b2b.spring.boot.demo.ApplicationTests  : The following 1 profile is active: "dev"
+2025-03-20T17:39:07.811+01:00  INFO 14300 --- [spring_boot_demo] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-20T17:39:07.874+01:00  INFO 14300 --- [spring_boot_demo] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2025-03-20T17:39:08.088+01:00  INFO 14300 --- [spring_boot_demo] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6a84d854-76f4-3d8a-acae-d22176073c2f
+2025-03-20T17:39:08.463+01:00  INFO 14300 --- [spring_boot_demo] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-20T17:39:08.507+01:00  INFO 14300 --- [spring_boot_demo] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-20T17:39:08.549+01:00  INFO 14300 --- [spring_boot_demo] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-20T17:39:08.870+01:00  INFO 14300 --- [spring_boot_demo] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-20T17:39:08.909+01:00  INFO 14300 --- [spring_boot_demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-20T17:39:09.070+01:00  INFO 14300 --- [spring_boot_demo] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:spring_boot_demo user=SA
+2025-03-20T17:39:09.072+01:00  INFO 14300 --- [spring_boot_demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-20T17:39:09.101+01:00  WARN 14300 --- [spring_boot_demo] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-20T17:39:09.119+01:00  INFO 14300 --- [spring_boot_demo] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-20T17:39:09.767+01:00  INFO 14300 --- [spring_boot_demo] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table utente (id bigint generated by default as identity, dettaglio varchar(255), email varchar(255), nome varchar(255), primary key (id))
+2025-03-20T17:39:09.819+01:00  INFO 14300 --- [spring_boot_demo] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-20T17:39:09.951+01:00  WARN 14300 --- [spring_boot_demo] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+pippoDev
+DATI RECUPERATI: 
+ToDoRecord(userId=3, id=57, title=pariatur et magnam ea doloribus similique voluptatem rerum quia, completed=false)
+ToDoRecord(userId=3, id=52, title=nesciunt dolorum quis recusandae ad pariatur ratione, completed=false)
+ToDoRecord(userId=7, id=135, title=facere ipsa nam eum voluptates reiciendis vero qui, completed=false)
+ToDoRecord(userId=4, id=75, title=occaecati adipisci est possimus totam, completed=false)
+ToDoRecord(userId=5, id=92, title=in omnis laboriosam, completed=true)
+ToDoRecord(userId=9, id=161, title=ex hic consequuntur earum omnis alias ut occaecati culpa, completed=true)
+ToDoRecord(userId=10, id=191, title=temporibus atque distinctio omnis eius impedit tempore molestias pariatur, completed=true)
+ToDoRecord(userId=7, id=139, title=consequatur doloribus id possimus voluptas a voluptatem, completed=false)
+ToDoRecord(userId=2, id=38, title=totam quia non, completed=false)
+ToDoRecord(userId=8, id=142, title=maiores accusantium architecto necessitatibus reiciendis ea aut, completed=true)
+ToDoRecord(userId=9, id=180, title=debitis nisi et dolorem repellat et, completed=true)
+ToDoRecord(userId=1, id=14, title=repellendus sunt dolores architecto voluptatum, completed=true)
+ToDoRecord(userId=2, id=36, title=excepturi deleniti adipisci voluptatem et neque optio illum ad, completed=true)
+ToDoRecord(userId=5, id=85, title=et quia ad iste a, completed=true)
+ToDoRecord(userId=5, id=95, title=vel nihil et molestiae iusto assumenda nemo quo ut, completed=true)
+ToDoRecord(userId=4, id=63, title=doloremque aut dolores quidem fuga qui nulla, completed=true)
+ToDoRecord(userId=1, id=3, title=fugiat veniam minus, completed=false)
+ToDoRecord(userId=5, id=89, title=sequi ut omnis et, completed=true)
+ToDoRecord(userId=8, id=149, title=animi voluptas quod perferendis est, completed=false)
+ToDoRecord(userId=10, id=187, title=consequuntur animi possimus, completed=false)
+ToDoRecord(userId=6, id=101, title=explicabo enim cumque porro aperiam occaecati minima, completed=false)
+ToDoRecord(userId=1, id=9, title=molestiae perspiciatis ipsa, completed=false)
+ToDoRecord(userId=3, id=56, title=deleniti ea temporibus enim, completed=true)
+ToDoRecord(userId=4, id=70, title=ut sequi accusantium et mollitia delectus sunt, completed=false)
+ToDoRecord(userId=8, id=141, title=explicabo consectetur debitis voluptates quas quae culpa rerum non, completed=true)
+ToDoRecord(userId=8, id=154, title=rerum non ex sapiente, completed=true)
+ToDoRecord(userId=6, id=117, title=sequi quae est et qui qui eveniet asperiores, completed=false)
+ToDoRecord(userId=6, id=118, title=quia modi consequatur vero fugiat, completed=false)
+ToDoRecord(userId=3, id=48, title=sit reprehenderit omnis quia, completed=false)
+ToDoRecord(userId=10, id=198, title=quis eius est sint explicabo, completed=true)
+ToDoRecord(userId=1, id=19, title=molestiae ipsa aut voluptatibus pariatur dolor nihil, completed=true)
+ToDoRecord(userId=10, id=185, title=voluptates dignissimos sed doloribus animi quaerat aut, completed=false)
+ToDoRecord(userId=3, id=45, title=velit soluta adipisci molestias reiciendis harum, completed=false)
+ToDoRecord(userId=6, id=106, title=ad illo quis voluptatem temporibus, completed=true)
+ToDoRecord(userId=10, id=186, title=explicabo odio est et, completed=false)
+ToDoRecord(userId=7, id=129, title=rerum culpa quis harum, completed=false)
+ToDoRecord(userId=7, id=124, title=qui consectetur id, completed=false)
+ToDoRecord(userId=7, id=131, title=qui ea incidunt quis, completed=false)
+ToDoRecord(userId=10, id=183, title=omnis nulla eum aliquam distinctio, completed=true)
+ToDoRecord(userId=3, id=50, title=cupiditate necessitatibus ullam aut quis dolor voluptate, completed=true)
+ToDoRecord(userId=2, id=24, title=adipisci non ad dicta qui amet quaerat doloribus ea, completed=false)
+ToDoRecord(userId=3, id=42, title=rerum perferendis error quia ut eveniet, completed=false)
+ToDoRecord(userId=10, id=197, title=dignissimos quo nobis earum saepe, completed=true)
+ToDoRecord(userId=5, id=99, title=neque voluptates ratione, completed=false)
+ToDoRecord(userId=9, id=169, title=ea odio perferendis officiis, completed=true)
+ToDoRecord(userId=6, id=110, title=aut aut ea corporis, completed=true)
+ToDoRecord(userId=6, id=105, title=totam quia dolorem et illum repellat voluptas optio, completed=true)
+ToDoRecord(userId=4, id=62, title=et placeat et tempore aspernatur sint numquam, completed=false)
+ToDoRecord(userId=5, id=82, title=voluptates eum voluptas et dicta, completed=false)
+ToDoRecord(userId=10, id=200, title=ipsam aperiam voluptates qui, completed=false)
+ToDoRecord(userId=9, id=175, title=laudantium eius officia perferendis provident perspiciatis asperiores, completed=true)
+ToDoRecord(userId=6, id=107, title=praesentium facilis omnis laudantium fugit ad iusto nihil nesciunt, completed=false)
+ToDoRecord(userId=4, id=67, title=quia voluptatibus voluptatem quos similique maiores repellat, completed=false)
+ToDoRecord(userId=6, id=115, title=sed et ea eum, completed=false)
+ToDoRecord(userId=1, id=18, title=dolorum est consequatur ea mollitia in culpa, completed=false)
+ToDoRecord(userId=4, id=66, title=rerum eum molestias autem voluptatum sit optio, completed=false)
+ToDoRecord(userId=3, id=51, title=distinctio exercitationem ab doloribus, completed=false)
+ToDoRecord(userId=10, id=182, title=inventore saepe cumque et aut illum enim, completed=true)
+ToDoRecord(userId=4, id=74, title=expedita tempore nobis eveniet laborum maiores, completed=false)
+ToDoRecord(userId=5, id=100, title=excepturi a et neque qui expedita vel voluptate, completed=false)
+ToDoRecord(userId=5, id=81, title=suscipit qui totam, completed=true)
+ToDoRecord(userId=7, id=138, title=placeat minima consequatur rem qui ut, completed=true)
+ToDoRecord(userId=8, id=144, title=ut eum exercitationem sint, completed=false)
+ToDoRecord(userId=4, id=77, title=maiores aut nesciunt delectus exercitationem vel assumenda eligendi at, completed=false)
+ToDoRecord(userId=2, id=29, title=laborum aut in quam, completed=false)
+ToDoRecord(userId=2, id=33, title=sint sit aut vero, completed=false)
+ToDoRecord(userId=6, id=120, title=dolorem laboriosam vel voluptas et aliquam quasi, completed=false)
+ToDoRecord(userId=7, id=130, title=nulla aliquid eveniet harum laborum libero alias ut unde, completed=true)
+ToDoRecord(userId=9, id=165, title=fugiat perferendis sed aut quidem, completed=false)
+ToDoRecord(userId=9, id=166, title=quos quo possimus suscipit minima ut, completed=false)
+ToDoRecord(userId=9, id=173, title=harum ad aperiam quis, completed=false)
+ToDoRecord(userId=8, id=153, title=ea aperiam consequatur qui repellat eos, completed=false)
+ToDoRecord(userId=8, id=147, title=eum itaque quod reprehenderit et facilis dolor autem ut, completed=true)
+ToDoRecord(userId=9, id=168, title=recusandae quia qui sunt libero, completed=false)
+ToDoRecord(userId=6, id=114, title=cupiditate quos possimus corporis quisquam exercitationem beatae, completed=false)
+ToDoRecord(userId=7, id=128, title=eius omnis est qui voluptatem autem, completed=false)
+ToDoRecord(userId=3, id=44, title=cum debitis quis accusamus doloremque ipsa natus sapiente omnis, completed=true)
+ToDoRecord(userId=7, id=132, title=qui molestiae voluptatibus velit iure harum quisquam, completed=true)
+ToDoRecord(userId=6, id=111, title=magni accusantium labore et id quis provident, completed=false)
+ToDoRecord(userId=2, id=37, title=sunt cum tempora, completed=false)
+ToDoRecord(userId=3, id=53, title=qui labore est occaecati recusandae aliquid quam, completed=false)
+ToDoRecord(userId=5, id=86, title=incidunt ut saepe autem, completed=true)
+ToDoRecord(userId=8, id=158, title=debitis vitae delectus et harum accusamus aut deleniti a, completed=true)
+ToDoRecord(userId=7, id=126, title=ut asperiores perspiciatis veniam ipsum rerum saepe, completed=true)
+ToDoRecord(userId=9, id=162, title=omnis laboriosam molestias animi sunt dolore, completed=true)
+ToDoRecord(userId=10, id=192, title=ut quas possimus exercitationem sint voluptates, completed=false)
+ToDoRecord(userId=6, id=108, title=a eos eaque nihil et exercitationem incidunt delectus, completed=true)
+ToDoRecord(userId=7, id=122, title=provident aut nobis culpa, completed=true)
+ToDoRecord(userId=7, id=133, title=et labore eos enim rerum consequatur sunt, completed=true)
+ToDoRecord(userId=7, id=123, title=esse et quis iste est earum aut impedit, completed=false)
+ToDoRecord(userId=8, id=148, title=esse quas et quo quasi exercitationem, completed=false)
+ToDoRecord(userId=1, id=6, title=qui ullam ratione quibusdam voluptatem quia omnis, completed=false)
+ToDoRecord(userId=8, id=146, title=molestiae suscipit ratione nihil odio libero impedit vero totam, completed=true)
+ToDoRecord(userId=9, id=179, title=omnis consequuntur cupiditate impedit itaque ipsam quo, completed=true)
+ToDoRecord(userId=10, id=190, title=accusamus sint iusto et voluptatem exercitationem, completed=true)
+ToDoRecord(userId=5, id=90, title=molestiae nisi accusantium tenetur dolorem et, completed=true)
+ToDoRecord(userId=3, id=55, title=voluptatum omnis minima qui occaecati provident nulla voluptatem ratione, completed=true)
+ToDoRecord(userId=5, id=84, title=sunt veritatis ut voluptate, completed=false)
+ToDoRecord(userId=7, id=136, title=asperiores illo tempora fuga sed ut quasi adipisci, completed=false)
+ToDoRecord(userId=6, id=102, title=sed ab consequatur, completed=false)
+ToDoRecord(userId=4, id=72, title=praesentium facilis facere quis harum voluptatibus voluptatem eum, completed=false)
+ToDoRecord(userId=1, id=10, title=illo est ratione doloremque quia maiores aut, completed=true)
+ToDoRecord(userId=9, id=177, title=et placeat temporibus voluptas est tempora quos quibusdam, completed=false)
+ToDoRecord(userId=4, id=78, title=reiciendis est magnam amet nemo iste recusandae impedit quaerat, completed=false)
+ToDoRecord(userId=5, id=87, title=laudantium quae eligendi consequatur quia et vero autem, completed=true)
+ToDoRecord(userId=5, id=97, title=dolorum laboriosam eos qui iure aliquam, completed=false)
+ToDoRecord(userId=10, id=188, title=vel non beatae est, completed=true)
+ToDoRecord(userId=10, id=184, title=molestias modi perferendis perspiciatis, completed=false)
+ToDoRecord(userId=10, id=194, title=sed ut vero sit molestiae, completed=false)
+ToDoRecord(userId=10, id=199, title=numquam repellendus a magnam, completed=true)
+ToDoRecord(userId=1, id=1, title=delectus aut autem, completed=false)
+ToDoRecord(userId=7, id=140, title=aut consectetur in blanditiis deserunt quia sed laboriosam, completed=true)
+ToDoRecord(userId=5, id=91, title=nulla quis consequatur saepe qui id expedita, completed=true)
+ToDoRecord(userId=4, id=61, title=odit optio omnis qui sunt, completed=true)
+ToDoRecord(userId=1, id=7, title=illo expedita consequatur quia in, completed=false)
+ToDoRecord(userId=10, id=181, title=ut cupiditate sequi aliquam fuga maiores, completed=false)
+ToDoRecord(userId=2, id=23, title=et itaque necessitatibus maxime molestiae qui quas velit, completed=false)
+ToDoRecord(userId=6, id=112, title=consectetur impedit quisquam qui deserunt non rerum consequuntur eius, completed=false)
+ToDoRecord(userId=5, id=93, title=odio iure consequatur molestiae quibusdam necessitatibus quia sint, completed=true)
+ToDoRecord(userId=2, id=25, title=voluptas quo tenetur perspiciatis explicabo natus, completed=true)
+ToDoRecord(userId=1, id=16, title=accusamus eos facilis sint et aut voluptatem, completed=true)
+ToDoRecord(userId=7, id=121, title=inventore aut nihil minima laudantium hic qui omnis, completed=true)
+ToDoRecord(userId=3, id=54, title=quis et est ut voluptate quam dolor, completed=true)
+ToDoRecord(userId=4, id=68, title=aut id perspiciatis voluptatem iusto, completed=false)
+ToDoRecord(userId=8, id=151, title=accusamus adipisci dicta qui quo ea explicabo sed vero, completed=true)
+ToDoRecord(userId=3, id=41, title=aliquid amet impedit consequatur aspernatur placeat eaque fugiat suscipit, completed=false)
+ToDoRecord(userId=9, id=172, title=et provident amet rerum consectetur et voluptatum, completed=false)
+ToDoRecord(userId=1, id=17, title=quo laboriosam deleniti aut qui, completed=true)
+ToDoRecord(userId=1, id=8, title=quo adipisci enim quam ut ab, completed=true)
+ToDoRecord(userId=5, id=88, title=vitae aut excepturi laboriosam sint aliquam et et accusantium, completed=false)
+ToDoRecord(userId=6, id=116, title=ipsa dolores vel facilis ut, completed=true)
+ToDoRecord(userId=2, id=21, title=suscipit repellat esse quibusdam voluptatem incidunt, completed=false)
+ToDoRecord(userId=10, id=195, title=rerum ex veniam mollitia voluptatibus pariatur, completed=true)
+ToDoRecord(userId=1, id=15, title=ab voluptatum amet voluptas, completed=true)
+ToDoRecord(userId=8, id=159, title=debitis adipisci quibusdam aliquam sed dolore ea praesentium nobis, completed=true)
+ToDoRecord(userId=10, id=193, title=rerum debitis voluptatem qui eveniet tempora distinctio a, completed=true)
+ToDoRecord(userId=1, id=5, title=laboriosam mollitia et enim quasi adipisci quia provident illum, completed=false)
+ToDoRecord(userId=2, id=31, title=repudiandae totam in est sint facere fuga, completed=false)
+ToDoRecord(userId=3, id=47, title=nam qui rerum fugiat accusamus, completed=false)
+ToDoRecord(userId=1, id=11, title=vero rerum temporibus dolor, completed=true)
+ToDoRecord(userId=1, id=13, title=et doloremque nulla, completed=false)
+ToDoRecord(userId=4, id=69, title=doloribus sint dolorum ab adipisci itaque dignissimos aliquam suscipit, completed=false)
+ToDoRecord(userId=3, id=43, title=tempore ut sint quis recusandae, completed=true)
+ToDoRecord(userId=9, id=170, title=quisquam aliquam quia doloribus aut, completed=false)
+ToDoRecord(userId=1, id=4, title=et porro tempora, completed=true)
+ToDoRecord(userId=3, id=49, title=ut necessitatibus aut maiores debitis officia blanditiis velit et, completed=false)
+ToDoRecord(userId=3, id=58, title=est dicta totam qui explicabo doloribus qui dignissimos, completed=false)
+ToDoRecord(userId=4, id=80, title=tempore molestias dolores rerum sequi voluptates ipsum consequatur, completed=true)
+ToDoRecord(userId=1, id=12, title=ipsa repellendus fugit nisi, completed=true)
+ToDoRecord(userId=2, id=28, title=nesciunt totam sit blanditiis sit, completed=false)
+ToDoRecord(userId=6, id=104, title=excepturi non laudantium quo, completed=false)
+ToDoRecord(userId=9, id=171, title=fugiat aut voluptatibus corrupti deleniti velit iste odio, completed=true)
+ToDoRecord(userId=4, id=73, title=sint amet quia totam corporis qui exercitationem commodi, completed=true)
+ToDoRecord(userId=8, id=160, title=et praesentium aliquam est, completed=false)
+ToDoRecord(userId=4, id=79, title=eum ipsa maxime ut, completed=true)
+ToDoRecord(userId=10, id=189, title=culpa eius et voluptatem et, completed=true)
+ToDoRecord(userId=9, id=178, title=nesciunt itaque commodi tempore, completed=true)
+ToDoRecord(userId=2, id=35, title=repellendus veritatis molestias dicta incidunt, completed=true)
+ToDoRecord(userId=8, id=156, title=nam quia quia nulla repellat assumenda quibusdam sit nobis, completed=true)
+ToDoRecord(userId=2, id=26, title=aliquam aut quasi, completed=true)
+ToDoRecord(userId=9, id=163, title=natus corrupti maxime laudantium et voluptatem laboriosam odit, completed=false)
+ToDoRecord(userId=6, id=109, title=autem temporibus harum quisquam in culpa, completed=true)
+ToDoRecord(userId=8, id=152, title=odit eligendi recusandae doloremque cumque non, completed=false)
+ToDoRecord(userId=2, id=22, title=distinctio vitae autem nihil ut molestias quo, completed=true)
+ToDoRecord(userId=4, id=76, title=sequi dolorem sed, completed=true)
+ToDoRecord(userId=8, id=143, title=eum non recusandae cupiditate animi, completed=false)
+ToDoRecord(userId=1, id=2, title=quis ut nam facilis et officia qui, completed=false)
+ToDoRecord(userId=6, id=119, title=corporis ducimus ea perspiciatis iste, completed=false)
+ToDoRecord(userId=9, id=164, title=reprehenderit quos aut aut consequatur est sed, completed=false)
+ToDoRecord(userId=7, id=134, title=molestiae doloribus et laborum quod ea, completed=false)
+ToDoRecord(userId=9, id=174, title=similique aut quo, completed=false)
+ToDoRecord(userId=1, id=20, title=ullam nobis libero sapiente ad optio sint, completed=true)
+ToDoRecord(userId=2, id=30, title=nemo perspiciatis repellat ut dolor libero commodi blanditiis omnis, completed=true)
+ToDoRecord(userId=4, id=65, title=fugiat pariatur ratione ut asperiores necessitatibus magni, completed=false)
+ToDoRecord(userId=8, id=155, title=voluptatem nobis consequatur et assumenda magnam, completed=true)
+ToDoRecord(userId=5, id=94, title=facilis modi saepe mollitia, completed=false)
+ToDoRecord(userId=2, id=40, title=totam atque quo nesciunt, completed=true)
+ToDoRecord(userId=8, id=145, title=beatae qui ullam incidunt voluptatem non nisi aliquam, completed=false)
+ToDoRecord(userId=7, id=125, title=aut quasi autem iste tempore illum possimus, completed=false)
+ToDoRecord(userId=9, id=167, title=et quis minus quo a asperiores molestiae, completed=false)
+ToDoRecord(userId=6, id=113, title=quia atque aliquam sunt impedit voluptatum rerum assumenda nisi, completed=false)
+ToDoRecord(userId=2, id=34, title=porro aut necessitatibus eaque distinctio, completed=false)
+ToDoRecord(userId=9, id=176, title=magni soluta corrupti ut maiores rem quidem, completed=false)
+ToDoRecord(userId=4, id=64, title=voluptas consequatur qui ut quia magnam nemo esse, completed=false)
+ToDoRecord(userId=10, id=196, title=consequuntur aut ut fugit similique, completed=true)
+ToDoRecord(userId=3, id=59, title=perspiciatis velit id laborum placeat iusto et aliquam odio, completed=false)
+ToDoRecord(userId=3, id=60, title=et sequi qui architecto ut adipisci, completed=true)
+ToDoRecord(userId=4, id=71, title=aut velit saepe ullam, completed=false)
+ToDoRecord(userId=6, id=103, title=non sunt delectus illo nulla tenetur enim omnis, completed=false)
+ToDoRecord(userId=2, id=39, title=doloremque quibusdam asperiores libero corrupti illum qui omnis, completed=false)
+ToDoRecord(userId=8, id=157, title=dolorem veniam quisquam deserunt repellendus, completed=true)
+ToDoRecord(userId=2, id=32, title=earum doloribus ea doloremque quis, completed=false)
+ToDoRecord(userId=2, id=27, title=veritatis pariatur delectus, completed=true)
+ToDoRecord(userId=7, id=127, title=voluptatem libero consectetur rerum ut, completed=true)
+ToDoRecord(userId=5, id=98, title=debitis accusantium ut quo facilis nihil quis sapiente necessitatibus, completed=true)
+ToDoRecord(userId=3, id=46, title=vel voluptatem repellat nihil placeat corporis, completed=false)
+ToDoRecord(userId=7, id=137, title=qui sit non, completed=false)
+ToDoRecord(userId=5, id=83, title=quidem at rerum quis ex aut sit quam, completed=true)
+ToDoRecord(userId=5, id=96, title=nobis suscipit ducimus enim asperiores voluptas, completed=false)
+ToDoRecord(userId=8, id=150, title=eos amet tempore laudantium fugit a, completed=false)
+2025-03-20T17:39:10.811+01:00  INFO 14300 --- [spring_boot_demo] [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-03-20T17:39:10.811+01:00  WARN 14300 --- [spring_boot_demo] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-03-20T17:39:11.458+01:00  INFO 14300 --- [spring_boot_demo] [           main] c.b2b.spring.boot.demo.ApplicationTests  : Started ApplicationTests in 4.769 seconds (process running for 5.939)
+]]></system-out>
+    <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\suxpe\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+</testsuite>
