@@ -1,8 +1,19 @@
-*.log
-
+target/
+mvnw
+mvnw.cmd
 /build/
 
+#intellij idea
+.idea/
+
+#config sensibili(tutto cio che contiene dati sensibili)
+.env
+
+#file di log
+logs/
+*.log
+
+#config locali
 config/local-settings.json
 
-/node_modules/
 
