@@ -30,8 +30,9 @@ public void test() {
   Set<ToDoRecord> test = esercizioClient.test();
   System.out.println("DATI RECUPERATI: ");
   test.forEach(System.out::println);
+}
 
-
+void aggiuntoPerProvareMerge(){
 
 }
 
